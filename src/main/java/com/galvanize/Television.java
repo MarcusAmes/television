@@ -3,7 +3,7 @@ package com.galvanize;
 import java.util.HashMap;
 
 public class Television {
-    private HashMap<Integer, Channel> channels = new HashMap<>();
+    private HashMap<Integer, Channel> channels;
     private int currentStation = 1;
     private boolean isOn = false;
 
